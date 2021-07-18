@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="">
+    <title>Anime Quiz</title>
+</head>
+<body>
+    
+    <!--top section-->
+    <div class="intro py-3 bg-dark text-center" style="text-shadow: rgb(0, 0, 0) 5px 5px 5px;">
+        <div class="container">
+            <h2 class="display-3 my-4" style="color: pink">Anime Quiz</h2>
+        </div>
+    </div>
+
+    <!--Result Section-->
+    <div class="result py-4 d-none bg-dark text-center text-white" style="text-shadow: rgb(0, 0, 0) 5px 5px 5px;">
+        <div class="container lead">
+            <p>You are <span class="display-4 p-3" style="color: pink"></span>weeb</p>
+        </div>
+    </div>
+
+    <!--quiz section-->
+    <div class="quiz py-4 has-bg-image" style="
+                background-image: url(images/japan2.jpg);
+                height: 100vh;
+                font-size: large;
+                font-weight: 500;
+                text-shadow: rgb(0, 0, 0) 5px 5px 5px;
+                ">
+        <div class="container">
+            <h2 class="my-5 font-size-large font-weight-500" style="color: rgb(255, 255, 255);">And so we begin...</h2>
+
+            <form class="quiz-form text-white">
+               <div class="my-5">
+                    <p class="lead" style="font-size: larger; font-weight: 500; color: rgb(255, 195, 206);">1. In ‘Howl’s Moving Castle’, Sophie is transformed into an old woman by a witch. How old is Sophie as an old woman?</p>
+                    <div class="form-check my-2 text-white">
+                       <input type="radio" name="q1" value="A" checked>
+                       <label  class="form-check-label">75 years old</label>
+                <div class="form-check my-2 text-white">
+                    <input type="radio" name="q1" value="B">
+                    <label  class="form-check-label">87 years old</label>
+                <div class="form-check my-2 text-white">
+                       <input type="radio" name="q1" value="C">
+                       <label  class="form-check-label">90 years old</label>
+                    <div class="form-check my-2 text-white">
+                       <input type="radio" name="q1" value="D">
+                       <label  class="form-check-label">95 years old</label>
+                   </div>
+               </div>
+               <div class="my-5">
+                    <p class="lead" style="font-size: larger; font-weight: 500; color: rgb(189, 253, 255);">2. 'Dragon Ball' was created by who in 1984?</p>
+                    <div class="form-check my-2 text-white">
+                       <input type="radio" name="q2" value="A" checked>
+                       <label  class="form-check-label">Akira Toriyama</label>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q2" value="B">
+                        <label  class="form-check-label">Satoshi Tajiri</label>
+                    <div class="form-check my-2 text-white">
+                       <input type="radio" name="q2" value="C">
+                       <label  class="form-check-label">Hirohiko Arak</label>
+                    <div class="form-check my-2 text-white">
+                       <input type="radio" name="q2" value="D">
+                       <label  class="form-check-label">Hayao Miyazaki</label>
+                   </div>
+               </div> 
+               <div class="my-5">
+                    <p class="lead" style="font-size: larger; font-weight: 500; color: rgb(255, 195, 206);">3. In ’Cowboy Bebop’ Ein is a genetically engineered dog with human levels of intelligence. Which breed of dog is Ein?</p>
+                    <div class="form-check my-2 text-light">
+                       <input type="radio" name="q3" value="A" checked>
+                       <label  class="form-check-label">Great Dane</label>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q3" value="B">
+                        <label  class="form-check-label">Cavalier King Charles Spaniel</label>
+                    <div class="form-check my-2 text-white">
+                       <input type="radio" name="q3" value="C">
+                       <label  class="form-check-label">Dachsund</label>
+                    <div class="form-check my-2 text-white">
+                       <input type="radio" name="q3" value="D">
+                       <label  class="form-check-label">Pembrokeshire Welsh Corgi</label>
+                   </div>
+               </div>
+               <div class="my-5">
+                    <p class="lead" style="font-size: larger; font-weight: 500; color: rgb(189, 253, 255);">4. In ‘Sailor Moon’ the anime character Makoto Kino transforms</p>
+                    <div class="form-check my-2" style="color: white">
+                       <input type="radio" name="q4" value="A" checked>
+                       <label  class="form-check-label">Sailor Mercury</label>
+                    <div class="form-check my-2 text-white">
+                        <input type="radio" name="q4" value="B">
+                        <label  class="form-check-label">Sailor Venus</label>
+                    <div class="form-check my-2 text-white">
+                       <input type="radio" name="q4" value="C">
+                       <label  class="form-check-label">Sailor Jupiter</label>
+                    <div class="form-check my-2 text-white">
+                       <input type="radio" name="q4" value="D">
+                       <label  class="form-check-label">Sailor Mars</label>
+                   </div>
+               </div>
+               <div class="text-center">
+                  <input type="submit" class="btn btn-light text-white" style="background-color: rgb(247, 59, 94);"> 
+               </div>
+            </form>
+        </div>
+    </div>
+    <script src="scripts/app.js"></script>
+</body>
+</html>l
